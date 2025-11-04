@@ -1,8 +1,8 @@
 def yoll(v, c):
-    if v > c:
+    if v >= c:
         return v+c
     elif c > v:
-        return c-v
+        return c**v
     else:
         return c*v
 
