@@ -1,6 +1,6 @@
 def yoll(v, c):
     if v >= c:
-        return v+c
+        return v/c
     elif c > v:
         return c**v
     else:
