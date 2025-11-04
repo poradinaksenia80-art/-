@@ -9,3 +9,5 @@ def yoll(v, c):
 
 r = yoll(5, 5)
 print(f"Вывод ответа: {r=}")
+a = r*1000
+print(f"Ответ:{a}")
